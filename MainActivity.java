@@ -1,6 +1,15 @@
 Contributed by Lukas Hoerpel. 
 Code for basic Design. It´s not doing anything, and it´s not finished. IceCreamSandwich supports the design, 
-which covers 80% of all devices, and it lookes great! Sourcecode follows, starting in Line 10.
+which covers 80% of all devices, and it lookes great! Sourcecode follows, starting in Line 19.
+Absolutely important guys! To have a nice logo for our app, replace in the res/... folders with the ic_launcher.png in it,
+all pictures with the follwing steps: 
+1st: download this image: http://rotarywanganuisouth.org.nz/wp-content/uploads/2011/12/whs.jpg
+2nd: open paint, load the picture in it and save it as "ic_launcher" in your directories. It will automatically
+become a .png file!
+3rd: when you have done this, go into your android studio/eclipse and copy the picture from your directory into all your mipmap 
+folders(hdpi,mdpi,xhdpi,xxhdpi) and overwrite the already existing "ic_launcher.png". When you did this correct, you should 
+end up with having a really nice app logo on your homescreen!
+
 
 
 
