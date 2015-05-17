@@ -1,0 +1,36 @@
+xml file including the design. run the app to see what´happening(LOL) code starts line 10
+contributed by Lukas Hoerpel
+
+
+
+
+
+
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerlayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentholder"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fffbf4ff"   //if you like, change it to "#ffffff", for a complete white background
+        >
+
+</FrameLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navlist"
+        android:background="#ff7fdeaf"  //this colour is just randomly chosen, but i like it!
+        android:layout_gravity="start"
+
+
+   > </ListView>
+</android.support.v4.widget.DrawerLayout>
